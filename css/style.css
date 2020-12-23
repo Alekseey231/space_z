@@ -1,8 +1,116 @@
 * {
-outline: 1px solid orange;
+
 }
+
+body {
+	background: #222222;
+    font-size: 14px;
+    color: #d4d4d4;
+    font-family: Verdana, sans-serif;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    padding-top: 55px;
+}
+
+ li {
+    padding-right: 34px;
+}
+
+ ul {
+    display: flex;
+    list-style: none;
+}
+
+h2 {
+    font-size: 24px;
+    font-family: 'MyWebFont';
+		src: url('fonts/Symbol PS Regular.ttf')  format('truetype');
+}
+
+.logo {
+    width: 60px;
+    margin-left: auto;
+    margin-right: 60px;
+}
+
 .container {
 width: 1040px;
 margin: 0 auto;
 padding: 0;
+}
+
+a{
+    text-decoration:none;
+    color: inherit;
+}
+.advantages {
+    display: flex;
+    flex-wrap: nowrap;
+    padding: 86px 0;
+    background-color: #131313;
+}
+
+
+
+button {
+    display: flex;
+    justify-content: space-around;
+    height: 50px;
+    border-radius: 25px;
+    border: none;
+}
+
+.contacts-menu {
+	display: flex;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer li{
+    list-style: none;
+}
+
+.about-us {
+    display: flex;
+}
+
+.container-left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: auto;
+    margin-right: 80px;
+}
+
+.container-left h1 {
+    color: white;
+    font-size: 45px;
+    padding-bottom: 50px;
+    padding-top: 71px;
+		font-family: 'MyWebFont';
+		src: url('fonts/Symbol PS Regular.ttf')  format('truetype');
+}
+
+.container-left p {
+    padding-bottom: 56px;
+}
+
+.container-left button {
+}
+
+.container-left button strong {
+	margin: auto 0;
+}
+
+.container-left button img {
+	margin: auto 0;
+}
+
+.container-left button {
+    background: #ffcb06;
+    width: 240px;
 }
