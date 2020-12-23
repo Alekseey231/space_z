@@ -1,5 +1,5 @@
 * {
-
+font-size: 100%;
 }
 
 body {
@@ -15,19 +15,52 @@ nav {
     padding-top: 55px;
 }
 
- li {
+li {
     padding-right: 34px;
 }
 
- ul {
+ nav ul {
     display: flex;
     list-style: none;
+}
+
+footer{
+    display: flex;
+    background-color: #131313;
+    padding-top: 60px;
+    padding-bottom: 86px;
+}
+.company div{
+    display: flex;
+    align-items: center;
+
+}
+
+.company p{
+    color: #555555;
+}
+
+.company div p{
+    margin: auto;
+    color:inherit;
+}
+
+
+
+.advantages ul {
+    display: flex;
+    list-style: none;
+}
+
+@font-face {
+	font-family: 'MyWebFont';
+	src: url('fonts/Symbol PS Regular.ttf');
 }
 
 h2 {
     font-size: 24px;
     font-family: 'MyWebFont';
-		src: url('fonts/Symbol PS Regular.ttf')  format('truetype');
+
 }
 
 .logo {
@@ -54,6 +87,11 @@ a{
 }
 
 
+.container-right {
+    margin-right: auto;
+    padding-bottom: 120px;
+    margin-top: 23px;
+}
 
 button {
     display: flex;
@@ -114,3 +152,80 @@ footer li{
     background: #ffcb06;
     width: 240px;
 }
+
+.container-left button strong {
+    margin: auto 0;
+}
+
+.about-us {
+    display: flex;
+}
+
+.all {
+    background: white;
+    color: black;
+
+}
+
+
+.content {
+
+    display: flex;
+    align-content: space-around;
+    padding-top: 84px;
+}
+
+.content img {
+    padding-right: 80px;
+    margin-left: auto;
+}
+
+.content div {
+    margin-right: auto;
+}
+
+.content h2 {
+    color: #131313;
+    padding-bottom: 54px;
+}
+
+.content p {
+    color: #222222;
+}
+
+.recomended {
+    display: flex;
+    list-style: none;
+    padding-bottom: 56px;
+    color: #222222;
+}
+
+.recomended .div-1 {
+    padding-right: 100px;
+}
+
+.recomended h2 {
+    padding-left: 39px;
+    padding-bottom: 5px;
+    padding-top: 55px;
+    margin: 0px;
+    color: #131313;
+}
+
+.all ul {
+    list-style: none;
+}
+
+.all li::before {
+    display: block;
+    position: relative;
+    content: "";
+    color: #ffcb06;
+    left: -24px;
+    top: 14px;
+    width: 8px;
+    height: 8px;
+    background-color: #ffcb06;
+    border-radius: 50%;
+}
+
